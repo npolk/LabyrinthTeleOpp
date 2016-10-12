@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10046801DAEFF8900E5EB93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100467F1DAEFF8900E5EB93 /* AppDelegate.swift */; };
+		F10046821DAEFF8900E5EB93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10046811DAEFF8900E5EB93 /* ViewController.swift */; };
+		F10046851DAEFF8900E5EB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10046831DAEFF8900E5EB93 /* Main.storyboard */; };
+		F10046871DAEFF8900E5EB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10046861DAEFF8900E5EB93 /* Assets.xcassets */; };
+		F100468A1DAEFF8900E5EB93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10046881DAEFF8900E5EB93 /* LaunchScreen.storyboard */; };
+		F10046951DAEFF8900E5EB93 /* LA4_TeleOppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10046941DAEFF8900E5EB93 /* LA4_TeleOppTests.swift */; };
+		F10046A01DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100469F1DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10046911DAEFF8900E5EB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10046741DAEFF8900E5EB93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F100467B1DAEFF8900E5EB93;
+			remoteInfo = LA4_TeleOpp;
+		};
+		F100469C1DAEFF8900E5EB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10046741DAEFF8900E5EB93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F100467B1DAEFF8900E5EB93;
+			remoteInfo = LA4_TeleOpp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F100467C1DAEFF8900E5EB93 /* LA4_TeleOpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LA4_TeleOpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F100467F1DAEFF8900E5EB93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F10046811DAEFF8900E5EB93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F10046841DAEFF8900E5EB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F10046861DAEFF8900E5EB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10046891DAEFF8900E5EB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F100468B1DAEFF8900E5EB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10046901DAEFF8900E5EB93 /* LA4_TeleOppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LA4_TeleOppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10046941DAEFF8900E5EB93 /* LA4_TeleOppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA4_TeleOppTests.swift; sourceTree = "<group>"; };
+		F10046961DAEFF8900E5EB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F100469B1DAEFF8900E5EB93 /* LA4_TeleOppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LA4_TeleOppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F100469F1DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA4_TeleOppUITests.swift; sourceTree = "<group>"; };
+		F10046A11DAEFF8A00E5EB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10046791DAEFF8900E5EB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F100468D1DAEFF8900E5EB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10046981DAEFF8900E5EB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10046731DAEFF8900E5EB93 = {
+			isa = PBXGroup;
+			children = (
+				F100467E1DAEFF8900E5EB93 /* LA4_TeleOpp */,
+				F10046931DAEFF8900E5EB93 /* LA4_TeleOppTests */,
+				F100469E1DAEFF8A00E5EB93 /* LA4_TeleOppUITests */,
+				F100467D1DAEFF8900E5EB93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F100467D1DAEFF8900E5EB93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F100467C1DAEFF8900E5EB93 /* LA4_TeleOpp.app */,
+				F10046901DAEFF8900E5EB93 /* LA4_TeleOppTests.xctest */,
+				F100469B1DAEFF8900E5EB93 /* LA4_TeleOppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F100467E1DAEFF8900E5EB93 /* LA4_TeleOpp */ = {
+			isa = PBXGroup;
+			children = (
+				F100467F1DAEFF8900E5EB93 /* AppDelegate.swift */,
+				F10046811DAEFF8900E5EB93 /* ViewController.swift */,
+				F10046831DAEFF8900E5EB93 /* Main.storyboard */,
+				F10046861DAEFF8900E5EB93 /* Assets.xcassets */,
+				F10046881DAEFF8900E5EB93 /* LaunchScreen.storyboard */,
+				F100468B1DAEFF8900E5EB93 /* Info.plist */,
+			);
+			path = LA4_TeleOpp;
+			sourceTree = "<group>";
+		};
+		F10046931DAEFF8900E5EB93 /* LA4_TeleOppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10046941DAEFF8900E5EB93 /* LA4_TeleOppTests.swift */,
+				F10046961DAEFF8900E5EB93 /* Info.plist */,
+			);
+			path = LA4_TeleOppTests;
+			sourceTree = "<group>";
+		};
+		F100469E1DAEFF8A00E5EB93 /* LA4_TeleOppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F100469F1DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift */,
+				F10046A11DAEFF8A00E5EB93 /* Info.plist */,
+			);
+			path = LA4_TeleOppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F100467B1DAEFF8900E5EB93 /* LA4_TeleOpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10046A41DAEFF8A00E5EB93 /* Build configuration list for PBXNativeTarget "LA4_TeleOpp" */;
+			buildPhases = (
+				F10046781DAEFF8900E5EB93 /* Sources */,
+				F10046791DAEFF8900E5EB93 /* Frameworks */,
+				F100467A1DAEFF8900E5EB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LA4_TeleOpp;
+			productName = LA4_TeleOpp;
+			productReference = F100467C1DAEFF8900E5EB93 /* LA4_TeleOpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F100468F1DAEFF8900E5EB93 /* LA4_TeleOppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10046A71DAEFF8A00E5EB93 /* Build configuration list for PBXNativeTarget "LA4_TeleOppTests" */;
+			buildPhases = (
+				F100468C1DAEFF8900E5EB93 /* Sources */,
+				F100468D1DAEFF8900E5EB93 /* Frameworks */,
+				F100468E1DAEFF8900E5EB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10046921DAEFF8900E5EB93 /* PBXTargetDependency */,
+			);
+			name = LA4_TeleOppTests;
+			productName = LA4_TeleOppTests;
+			productReference = F10046901DAEFF8900E5EB93 /* LA4_TeleOppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F100469A1DAEFF8900E5EB93 /* LA4_TeleOppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10046AA1DAEFF8A00E5EB93 /* Build configuration list for PBXNativeTarget "LA4_TeleOppUITests" */;
+			buildPhases = (
+				F10046971DAEFF8900E5EB93 /* Sources */,
+				F10046981DAEFF8900E5EB93 /* Frameworks */,
+				F10046991DAEFF8900E5EB93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F100469D1DAEFF8900E5EB93 /* PBXTargetDependency */,
+			);
+			name = LA4_TeleOppUITests;
+			productName = LA4_TeleOppUITests;
+			productReference = F100469B1DAEFF8900E5EB93 /* LA4_TeleOppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10046741DAEFF8900E5EB93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Natalie Carmela Polk";
+				TargetAttributes = {
+					F100467B1DAEFF8900E5EB93 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F100468F1DAEFF8900E5EB93 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F100467B1DAEFF8900E5EB93;
+					};
+					F100469A1DAEFF8900E5EB93 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F100467B1DAEFF8900E5EB93;
+					};
+				};
+			};
+			buildConfigurationList = F10046771DAEFF8900E5EB93 /* Build configuration list for PBXProject "LA4_TeleOpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10046731DAEFF8900E5EB93;
+			productRefGroup = F100467D1DAEFF8900E5EB93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F100467B1DAEFF8900E5EB93 /* LA4_TeleOpp */,
+				F100468F1DAEFF8900E5EB93 /* LA4_TeleOppTests */,
+				F100469A1DAEFF8900E5EB93 /* LA4_TeleOppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F100467A1DAEFF8900E5EB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F100468A1DAEFF8900E5EB93 /* LaunchScreen.storyboard in Resources */,
+				F10046871DAEFF8900E5EB93 /* Assets.xcassets in Resources */,
+				F10046851DAEFF8900E5EB93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F100468E1DAEFF8900E5EB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10046991DAEFF8900E5EB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10046781DAEFF8900E5EB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10046821DAEFF8900E5EB93 /* ViewController.swift in Sources */,
+				F10046801DAEFF8900E5EB93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F100468C1DAEFF8900E5EB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10046951DAEFF8900E5EB93 /* LA4_TeleOppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10046971DAEFF8900E5EB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10046A01DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10046921DAEFF8900E5EB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F100467B1DAEFF8900E5EB93 /* LA4_TeleOpp */;
+			targetProxy = F10046911DAEFF8900E5EB93 /* PBXContainerItemProxy */;
+		};
+		F100469D1DAEFF8900E5EB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F100467B1DAEFF8900E5EB93 /* LA4_TeleOpp */;
+			targetProxy = F100469C1DAEFF8900E5EB93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10046831DAEFF8900E5EB93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10046841DAEFF8900E5EB93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F10046881DAEFF8900E5EB93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10046891DAEFF8900E5EB93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10046A21DAEFF8A00E5EB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10046A31DAEFF8A00E5EB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10046A51DAEFF8A00E5EB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LA4_TeleOpp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LA4.LA4-TeleOpp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F10046A61DAEFF8A00E5EB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LA4_TeleOpp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LA4.LA4-TeleOpp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F10046A81DAEFF8A00E5EB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LA4_TeleOppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LA4.LA4-TeleOppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA4_TeleOpp.app/LA4_TeleOpp";
+			};
+			name = Debug;
+		};
+		F10046A91DAEFF8A00E5EB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LA4_TeleOppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LA4.LA4-TeleOppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LA4_TeleOpp.app/LA4_TeleOpp";
+			};
+			name = Release;
+		};
+		F10046AB1DAEFF8A00E5EB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LA4_TeleOppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LA4.LA4-TeleOppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LA4_TeleOpp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F10046AC1DAEFF8A00E5EB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LA4_TeleOppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LA4.LA4-TeleOppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LA4_TeleOpp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10046771DAEFF8900E5EB93 /* Build configuration list for PBXProject "LA4_TeleOpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10046A21DAEFF8A00E5EB93 /* Debug */,
+				F10046A31DAEFF8A00E5EB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10046A41DAEFF8A00E5EB93 /* Build configuration list for PBXNativeTarget "LA4_TeleOpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10046A51DAEFF8A00E5EB93 /* Debug */,
+				F10046A61DAEFF8A00E5EB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F10046A71DAEFF8A00E5EB93 /* Build configuration list for PBXNativeTarget "LA4_TeleOppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10046A81DAEFF8A00E5EB93 /* Debug */,
+				F10046A91DAEFF8A00E5EB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F10046AA1DAEFF8A00E5EB93 /* Build configuration list for PBXNativeTarget "LA4_TeleOppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10046AB1DAEFF8A00E5EB93 /* Debug */,
+				F10046AC1DAEFF8A00E5EB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10046741DAEFF8900E5EB93 /* Project object */;
+}
