@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1909" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JoystickViewController" customModule="LA4_TeleOpp" customModuleProvider="target">
+            <connections>
+                <outlet property="horizontalSlider" destination="a7b-UY-Yw3" id="xDz-EJ-ySx"/>
+                <outlet property="verticalSlider" destination="prW-Hu-QPi" id="kTw-zj-c4k"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="xValue" destination="aAg-Fw-NKQ" id="MrO-AX-mDW"/>
+                <outlet property="yValue" destination="Na4-tK-uqX" id="a5R-p5-rJm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Na4-tK-uqX">
+                    <rect key="frame" x="159.5" y="435" width="11" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5BO-mD-RNP">
+                    <rect key="frame" x="30" y="165" width="540" height="270"/>
+                    <subviews>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="prW-Hu-QPi">
+                            <rect key="frame" x="-2" y="120" width="274" height="31"/>
+                            <connections>
+                                <action selector="resetVerticalSlider:" destination="-1" eventType="touchUpInside" id="Jj6-dK-6HY"/>
+                                <action selector="yValueChanged:" destination="-1" eventType="valueChanged" id="TIT-SV-nYV"/>
+                            </connections>
+                        </slider>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="a7b-UY-Yw3">
+                            <rect key="frame" x="268" y="120" width="274" height="31"/>
+                            <connections>
+                                <action selector="resetHorizontalSlider:" destination="-1" eventType="touchUpInside" id="y5f-2Y-9hc"/>
+                                <action selector="xValueChanged:" destination="-1" eventType="valueChanged" id="VDg-Zo-PPU"/>
+                            </connections>
+                        </slider>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="a7b-UY-Yw3" firstAttribute="width" secondItem="5BO-mD-RNP" secondAttribute="width" multiplier="0.5" id="MSp-cW-gJp"/>
+                        <constraint firstItem="prW-Hu-QPi" firstAttribute="width" secondItem="5BO-mD-RNP" secondAttribute="width" multiplier="0.5" id="SSq-Lh-4Zw"/>
+                        <constraint firstItem="prW-Hu-QPi" firstAttribute="leading" secondItem="5BO-mD-RNP" secondAttribute="leading" id="WTs-fF-f40"/>
+                        <constraint firstAttribute="trailing" secondItem="a7b-UY-Yw3" secondAttribute="trailing" id="o1s-vC-eKm"/>
+                        <constraint firstItem="a7b-UY-Yw3" firstAttribute="centerY" secondItem="5BO-mD-RNP" secondAttribute="centerY" id="qWL-5s-Pbl"/>
+                        <constraint firstItem="prW-Hu-QPi" firstAttribute="centerY" secondItem="5BO-mD-RNP" secondAttribute="centerY" id="rhR-ox-cEA"/>
+                        <constraint firstAttribute="width" secondItem="5BO-mD-RNP" secondAttribute="height" multiplier="2:1" id="z1a-nZ-vbk"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAg-Fw-NKQ">
+                    <rect key="frame" x="429.5" y="435" width="11.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5BO-mD-RNP" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="CVs-BV-5TV"/>
+                <constraint firstItem="aAg-Fw-NKQ" firstAttribute="centerX" secondItem="a7b-UY-Yw3" secondAttribute="centerX" id="QfT-5b-4fa"/>
+                <constraint firstItem="5BO-mD-RNP" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="pfY-v5-6lp"/>
+                <constraint firstItem="Na4-tK-uqX" firstAttribute="centerX" secondItem="prW-Hu-QPi" secondAttribute="centerX" id="rdw-7V-WFj"/>
+                <constraint firstItem="5BO-mD-RNP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="t4R-O0-zKb"/>
+                <constraint firstItem="aAg-Fw-NKQ" firstAttribute="centerY" secondItem="Na4-tK-uqX" secondAttribute="centerY" id="vCh-aZ-I0g"/>
+                <constraint firstItem="Na4-tK-uqX" firstAttribute="top" secondItem="prW-Hu-QPi" secondAttribute="bottom" constant="120" id="zBQ-Jk-BtK"/>
+            </constraints>
+            <point key="canvasLocation" x="419" y="429"/>
+        </view>
+    </objects>
+</document>

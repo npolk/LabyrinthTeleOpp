@@ -12,11 +12,36 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var navigationController: UINavigationController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        self.navigationController?.navigationBarHidden = true
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.makeKeyAndVisible()
+        
+        navigateToLandingViewController()
+        
+        
         // Override point for customization after application launch.
         return true
+    }
+    
+    func  navigateToLandingViewController() {
+        
+        let landingViewController = LandingViewController(nibName: "LandingViewController", bundle: nil)
+        navigationController = UINavigationController(rootViewController: landingViewController)
+        self.window?.rootViewController = self.navigationController
+        
+    }
+    
+    func  navigateToJoystickViewController() {
+        
+        let joystickViewController = JoystickViewController(nibName: "JoystickViewController", bundle: nil)
+        navigationController = UINavigationController(rootViewController: joystickViewController)
+        self.window?.rootViewController = self.navigationController
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {

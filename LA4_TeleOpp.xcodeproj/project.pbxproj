@@ -14,6 +14,10 @@
 		F100468A1DAEFF8900E5EB93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10046881DAEFF8900E5EB93 /* LaunchScreen.storyboard */; };
 		F10046951DAEFF8900E5EB93 /* LA4_TeleOppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10046941DAEFF8900E5EB93 /* LA4_TeleOppTests.swift */; };
 		F10046A01DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100469F1DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift */; };
+		F10046AF1DAEFFC900E5EB93 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10046AD1DAEFFC900E5EB93 /* LandingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10046B01DAEFFC900E5EB93 /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10046AE1DAEFFC900E5EB93 /* LandingViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		F10046B51DAF0A9100E5EB93 /* JoystickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10046B31DAF0A9100E5EB93 /* JoystickViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10046B61DAF0A9100E5EB93 /* JoystickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10046B41DAF0A9100E5EB93 /* JoystickViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F100469B1DAEFF8900E5EB93 /* LA4_TeleOppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LA4_TeleOppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F100469F1DAEFF8A00E5EB93 /* LA4_TeleOppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA4_TeleOppUITests.swift; sourceTree = "<group>"; };
 		F10046A11DAEFF8A00E5EB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10046AD1DAEFFC900E5EB93 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		F10046AE1DAEFFC900E5EB93 /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		F10046B31DAF0A9100E5EB93 /* JoystickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoystickViewController.swift; sourceTree = "<group>"; };
+		F10046B41DAF0A9100E5EB93 /* JoystickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoystickViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				F100467F1DAEFF8900E5EB93 /* AppDelegate.swift */,
+				F10046B11DAF098400E5EB93 /* Landing View */,
+				F10046B21DAF099200E5EB93 /* Joystick */,
 				F10046811DAEFF8900E5EB93 /* ViewController.swift */,
 				F10046831DAEFF8900E5EB93 /* Main.storyboard */,
 				F10046861DAEFF8900E5EB93 /* Assets.xcassets */,
@@ -123,6 +133,24 @@
 				F10046A11DAEFF8A00E5EB93 /* Info.plist */,
 			);
 			path = LA4_TeleOppUITests;
+			sourceTree = "<group>";
+		};
+		F10046B11DAF098400E5EB93 /* Landing View */ = {
+			isa = PBXGroup;
+			children = (
+				F10046AD1DAEFFC900E5EB93 /* LandingViewController.swift */,
+				F10046AE1DAEFFC900E5EB93 /* LandingViewController.xib */,
+			);
+			name = "Landing View";
+			sourceTree = "<group>";
+		};
+		F10046B21DAF099200E5EB93 /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				F10046B31DAF0A9100E5EB93 /* JoystickViewController.swift */,
+				F10046B41DAF0A9100E5EB93 /* JoystickViewController.xib */,
+			);
+			name = Joystick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F100468A1DAEFF8900E5EB93 /* LaunchScreen.storyboard in Resources */,
+				F10046B61DAF0A9100E5EB93 /* JoystickViewController.xib in Resources */,
 				F10046871DAEFF8900E5EB93 /* Assets.xcassets in Resources */,
+				F10046B01DAEFFC900E5EB93 /* LandingViewController.xib in Resources */,
 				F10046851DAEFF8900E5EB93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10046821DAEFF8900E5EB93 /* ViewController.swift in Sources */,
+				F10046AF1DAEFFC900E5EB93 /* LandingViewController.swift in Sources */,
+				F10046B51DAF0A9100E5EB93 /* JoystickViewController.swift in Sources */,
 				F10046801DAEFF8900E5EB93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
